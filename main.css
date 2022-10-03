@@ -102,8 +102,51 @@
   color: white;
   text-decoration: none;
 }
+/****************************/
+#contact header {
+  font-size: 2rem;
+}
 /*******scroll paddinp top********/
 
 #more-about-me-section {
   scroll-padding-top: 4rem;
+}
+
+/****************************/
+
+@media (max-width: 750px) {
+  #desktop-navbar {
+    background-color: red !important;
+    display: none !important;
+  }
+  #mobile-navbar {
+    display: block !important;
+  }
+  #hero-container #hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #hero-container #hero .section-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #hero-container #hero .section-a .call-me-btn a {
+    font-size: large;
+  }
+  #hero-container img {
+    max-width: 250px;
+  }
+  #contact header {
+    overflow: hidden;
+  }
+  #contact header p strong {
+    text-align: center;
+  }
+
+  #contact header p:last-child strong {
+    font-size: 1rem;
+  }
 }
