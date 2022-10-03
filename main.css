@@ -1,0 +1,109 @@
+:root {
+  --primary-color: #0d6efd;
+}
+* {
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+}
+#logo-icon {
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+#logo-text {
+  font-weight: bold;
+}
+
+/*
+  hero section
+*/
+#hero-container {
+  margin-top: 4.5rem;
+}
+
+#hero {
+}
+
+#hero img {
+  border: 5px solid #ccc;
+  padding: 10px;
+  max-width: 350px;
+  border-radius: 100%;
+}
+
+.main-urls {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.call-me-btn {
+}
+
+.call-me-btn a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.call-me-btn:hover a {
+  color: white !important;
+}
+/****************/
+/*more about me section*/
+
+#more-about-me-section {
+  background-color: #343a40;
+  color: white;
+}
+#more-about-me-section .container .row > div:first-child img {
+  border-radius: 5px;
+}
+#more-about-me-section .container .row > div:first-child {
+  display: flexbox;
+  justify-content: flex-end;
+}
+#more-about-me-section .container .row > div:last-child h3 {
+  font-size: 3rem;
+}
+#more-about-me-section .container .row > div:last-child p {
+  text-justify: auto;
+  line-height: 2;
+}
+
+/********************/
+#featured-3 {
+  scroll-snap-type: proximity y;
+}
+.feature {
+  text-align: center;
+}
+.feature p {
+  text-align: right;
+}
+.feature .feature-icon img {
+  max-height: 220px;
+  text-align: center;
+}
+/************************************/
+#contact footer {
+  font-size: 0.9em;
+}
+.wrapper.style4 .row-special {
+  margin: 2em 0 0 0;
+  padding: 2em 0 2em 0;
+}
+
+.wrapper.style4 {
+  background-color: #303030;
+  color: #999;
+  text-shadow: -1px -1px 0px #181818;
+}
+.wrapper.style4 li {
+  list-style: none;
+}
+.wrapper.style4 a {
+  color: white;
+  text-decoration: none;
+}
+/*******scroll paddinp top********/
+
+#more-about-me-section {
+  scroll-padding-top: 4rem;
+}
